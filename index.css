@@ -58,6 +58,10 @@ header .info a {
   font-size: 1.75rem;
 }
 
+.resume-section h3 {
+  font-size: 1.25rem;
+}
+
 .resume-section hr {
   margin-bottom: 0.5rem;
 }
@@ -66,13 +70,15 @@ header .info a {
   text-align: justify;
 }
 
-.education .universities {
+.education .universities,
+.experience .experiences {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.university div {
+.university div,
+.work-exp div {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -80,7 +86,6 @@ header .info a {
 
 .university h3 {
   font-weight: 400;
-  font-size: 1.2rem;
 }
 
 .university h3 span {
@@ -88,11 +93,31 @@ header .info a {
   margin: 0 0.25rem;
 }
 
-.degree {
+.degree,
+.job-title {
   margin-top: 0.25rem;
   font-style: italic;
 }
 
 .coursework {
   margin-top: 0.25rem;
+}
+
+.job-title h3 {
+  font-weight: 400;
+}
+
+.job-details .details {
+  list-style-position: outside;
+  padding-left: 1rem;
+  margin-left: 0;
+}
+
+.job-details .details li {
+  padding-left: 0;
+  text-align: justify;
+}
+
+li::marker {
+  font-size: larger;
 }
