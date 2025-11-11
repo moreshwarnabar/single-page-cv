@@ -1,6 +1,6 @@
-# Cloud Resume Challenge – HTML Resume
+# Single Page CV – HTML Resume
 
-This repository contains the code for Moreshwar Rajan Nabar's cloud-ready résumé, built as part of the Cloud Resume Challenge. The site is a single-page static application composed of `index.html` and `index.css`, showcasing professional experience, education, and projects in a modern, responsive layout.
+This repository contains the code for Moreshwar Rajan Nabar's single page résumé, built as part of the [roadmap.sh](https://roadmap.sh/projects/single-page-cv) project. The site is a single-page static application composed of `index.html` and `index.css`, showcasing professional experience, education, and projects in a modern, responsive layout.
 
 ## Project Structure
 
@@ -11,8 +11,8 @@ This repository contains the code for Moreshwar Rajan Nabar's cloud-ready résum
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-account>/cloud-resume-challenge.git
-   cd cloud-resume-challenge
+   git clone https://github.com/moreshwarnabar/single-page-cv.git
+   cd single-page-cv
    ```
 2. Serve the site locally (pick one):
    - Double-click `index.html` to open it in your browser, **or**
@@ -26,7 +26,7 @@ This repository contains the code for Moreshwar Rajan Nabar's cloud-ready résum
 
 - Update contact information, experience, education, and skills directly in `index.html`.
 - Adjust colors, fonts, and layout in `index.css`. The site currently uses Google Fonts and Font Awesome for typography and icons.
-- Add analytics, serverless counter endpoints, or certification badges as you expand the Cloud Resume Challenge requirements.
+- Add analytics, serverless counter endpoints, or certification badges as per the Cloud Resume Challenge requirements.
 
 ## Deployment
 
